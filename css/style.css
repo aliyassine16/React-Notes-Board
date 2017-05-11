@@ -1,0 +1,36 @@
+html, 
+body {
+	height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.board{
+	height: 100%;
+	background-color: #ffe1ee;
+	width: 100%;
+	display: block;
+
+}
+
+.note {
+	width: 160px;
+	height: 160px;
+	box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	position: absolute;
+	border: 1px solid rgba(0,0,0,.25);
+	background-color: #ffeb3b;
+}
+.note p{
+	font-size: 20px;
+	height: 120px;
+	margin: 3px;
+	padding: 0px;
+}
+.note span{
+
+}
+
+
