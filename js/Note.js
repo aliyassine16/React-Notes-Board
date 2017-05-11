@@ -31,7 +31,7 @@ var Board=React.createClass({
 			var url="http://baconipsum.com/api/?type=all-meat&sentences="+this.props.count+"&start-with-lorem=1&callback=?";
 
 			$.getJSON(url,function(data){
-				data[0].split('. ').forEach(function(sentence){
+				data[0].split('. ').forEach((sentence)=>{
 					self.add(sentence.substring(0,40));
 
 				});
